@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    background-color: #f7ebdb;
+}
+
+.banner{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 17%;
+    height: 17%;
+    margin: auto;
+}
+
+.divlogo{
+    display: flex;
+    position: absolute;
+    top: 1%;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    margin: auto;
+}
+
+.whats{
+    width: 35%;
+    height: 35%;
+    margin-top: 30%;
+    cursor: pointer;
+}
+
+.insta{
+    width: 35%;
+    height: 35%;
+    margin-top: 30%;
+    cursor: pointer;
+}
+
+
+.sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 90%;
+    right: 0;
+    bottom: auto;
+    margin: 0;
+}
