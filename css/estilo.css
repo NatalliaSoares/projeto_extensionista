@@ -233,11 +233,17 @@ body{
 }
 
 .imgLinha{
-
     width: 50%;
 }
 
-.boxLinha{
+.boxLinha:hover{
+    object-fit: contain;
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.boxLinha {
     display: flex;
     flex-direction: column;
     background-color: #804324;
@@ -345,42 +351,58 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  .box-sobre-mim {
+.box-sobre-mim {
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
     width: 100%;
-    max-width: 500px;
-    height: auto;
-    margin: 0 20px;
+    height: 35vw;
     color: #804324;
-  }
+}
+
+.boxSobreMim{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
+    margin-left: 5%;
+}
   
-  .titulo-sobre-mim {
+.titulo-sobre-mim {
     font-weight: 100;
-    font-size: 50px;
-    margin-bottom: 0%;
-  }
+    font-size: 3vw;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
   
-  .texto-sobre-mim {
+.texto-sobre-mim {
     text-align: justify;
-    font-size: 20px;
-  }
+    font-size: 1.6vw;
+    width: 45vw;
+}
+
+.txtSobre{
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 25vw;
+}
   
-  .quadro {
+.quadro {
+    display: flex;
+    justify-content: center;
+    width: 33vw;
+    height: 33vw;
+    margin-top: 2%;
+}
+  
+.foto {
     width: 100%;
-    max-width: 500px;
     height: auto;
-    margin: 20px;
-    margin-bottom: -3%;
-  }
+}
   
-  .foto {
-    width: 100%;
-    height: auto;
-  }
-  
-  .contato {
+.contato {
     position: inherit;
     display: flex;
     flex-direction: column;
@@ -388,50 +410,56 @@ body{
     justify-content: center;
     background-color:#804324;
     color: #E7C69E;
-  }
+    margin-top: -3%;
+}
     
-  .title {
+.title {
     text-align: center;
-    margin-bottom: -30px;
-  }
+    margin-bottom: -1%;
+    margin-top: 0.1vw;
+}
     
-  .informações {
+.informações {
     display: flex;
     align-items: center;
-  }
+    justify-content: center;
+    max-width: 50vw;
+    width: 100%;
+}
     
-  .image {
-    margin-right: 5px;
-    margin-left: 20px;
-  }
+.image{
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
   
-  .imgFooter {
-    width: 50px;
-    height: 50px;
-    margin-top: 6px;
-  }
+.imgFooter {
+    width: 5.5vw;
+    height: 5.5vw;
+    margin-top: 4%;
+}
   
-  .text {
+.text {
     text-align: center;
-    font-size: 22px;
-  }
+    font-size: 1.9vw;
+}
     
-  .desenvolvedores {
-    font-size: 14px;
+.desenvolvedores {
+    font-size: 1.2vw;
     text-align: center;
-  }
+}
   
-  .title-text {
+.title-text {
     font-weight: 100;
-    font-size: 50px;
-  }
+    font-size: 2.5vw;
+}
     
-  a {
+a {
     color: #E7C69E;
     text-decoration: none;
-  }
+}
   
-  a:hover {
+a:hover {
     text-decoration: overline;
     color: #e7ba9e;
-  }
+}
